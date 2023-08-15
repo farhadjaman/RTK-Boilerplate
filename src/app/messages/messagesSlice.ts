@@ -1,10 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const intialState = {};
+const initialState = {};
 
 const message = createSlice({
   name: 'auth',
-  intialState,
+  initialState,
   reducers: {},
 });
 

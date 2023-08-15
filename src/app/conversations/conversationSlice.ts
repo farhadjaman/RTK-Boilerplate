@@ -1,10 +1,9 @@
 import { createSlice } from '@reduxjs/toolkit';
-
-const intialState = {};
+const initialState = {};
 
 const conversation = createSlice({
   name: 'auth',
-  intialState,
+  initialState,
   reducers: {},
 });
 
