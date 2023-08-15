@@ -7,14 +7,7 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: process.env.REACT_APP_API_URL,
   }),
-  endpoints: (builder) => ({
-    //put your endpoints here
-
-    // example:
-    getTodos: builder.query({
-      query: () => '/todos',
-    }),
-  }),
+  endpoints: (builder) => ({}),
 });
 
 const apiReducer = apiSlice.reducer;
@@ -22,8 +15,4 @@ const apiMiddleware = apiSlice.middleware;
 const apiReducerPath = apiSlice.reducerPath;
 
 export { apiReducer, apiMiddleware, apiReducerPath };
-export const {
-  //put your actions here and export them
-  // example:
-  useGetTodosQuery,
-} = apiSlice;
+export const {} = apiSlice;
